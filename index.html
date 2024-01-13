@@ -60,6 +60,18 @@
       height: 100%;
       z-index: 0;
     }
+    @media (max-width: 736px) {
+  #banner .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align buttons on mobile */
+  }
+
+  #banner .actions li {
+    width: 100%;
+    margin-bottom: 0.5em; /* Add margin between buttons for spacing */
+  }
+}
   </style>
 </head>
 <body class="is-preload">
