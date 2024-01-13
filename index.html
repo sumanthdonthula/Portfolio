@@ -9,11 +9,10 @@
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
   <style>
-    body {
-  position: relative;
-  margin: 0;
-  padding: 0;
+        body {
+    font-size: clamp([min font size], calc([min font size] + ([max font size] - [min font size]) * ((100vw - [min viewport width]) / ([max viewport width] - [min viewport width]))), [max font size]);
 }
+
 
     #banner {
       position: relative;
